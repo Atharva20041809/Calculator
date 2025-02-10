@@ -1,0 +1,62 @@
+.buttons div{
+    border-radius: 10%;
+    font-size: 18px;
+    font-weight: 40;
+    height: 80px;
+    color: white;
+    background-color: rgb(72, 66, 66);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    padding: 20px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+}
+#zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#equals{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: orange;
+}
+.main{
+    background-color: black;
+    width: 440px;
+    height: 620px;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    background-color: rgb(72, 66, 66);
+    height: 80px;
+    width: 410px;
+    margin-top: 15px;
+    border-radius: 25px;   
+    font-size: 48px;
+    font-weight: 40px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 8px;
+    overflow: scroll;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(217, 103, 103);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
